@@ -500,3 +500,20 @@ footer .flex-row .address {
   transition: opacity 1s ease-in;
   font-weight: 600;
 }
+
+.photo-credits {
+  position: absolute;
+  top: calc( 100vh - 2.5rem );
+  right: 1rem;
+  background-color:rgba(255,255,255,0.3);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px 3px rgba(0,0,0, 0.1);
+  z-index: 10;
+}
+
+.photo-credits a {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
