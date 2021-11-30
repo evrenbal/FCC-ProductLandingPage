@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Code Camp Product Landing Page</title>
+    <meta charset="UTF-8"/>
+    <meta lang="en"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta keywords="FreeCodeCamp, FCC, Product Landing Page">
+    <meta descripption="This is a sample form built for freeCodeCamp Survey Form assignment">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="header">
+      <img src="img/dog-walker-logo.png" alt="Logo of Dog Walker" id="header-img" class="logo">
+      <nav id="nav-bar">
+        <a href="#prices" class="nav-link">Prices</a>
+        <a href="#who-is" class="nav-link">FAQ</a>
+        <a href="#bonus" class="nav-link">Bonus</a>
+      </nav>
+      <div class="slider" data-duration="7500">
+        <div class="slide active" id="slide-1">
+          <div class="slide-inner">
+            <h2>FreeCodeCamp Product Landing Page Assignment</h2>
+            <p>This is a sample product landing page developed for FreeCodeCamp Responsive Web Design Certification.</p>
+          </div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div class="slide-inner">
+            <h2>Dog Walking Made Easy!</h2>
+            <p>This is a sample landing page for a dog walking service.</p>
+          </div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div class="slide-inner">
+            <h2>Dog Walking Service</h2>
+            <p>We love dogs! Dogs love us!</p>
+          </div>
+        </div>
+        <div class="slide" id="slide-4">
+          <div class="slide-inner">
+            <h2>Affordable Prices!</h2>
+            <p>The most affordable prices around the country!</p>
+          </div>
+        </div>
+        <div class="slide" id="slide-5">
+          <div class="slide-inner">
+            <h2>Is your Dog Always Home Alone?</h2>
+            <p>This page is built for FreeCodeCamp Assignment!</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="prices" id="prices">
+          <div class="price">
+            <div class="price-inner">
+              <h3>Short Walk</h3>
+              <p>30 minutes of walk</p>
+              <p>5 dogs at once</p>
+              <p>No play</p>
+              <div class="total-price day-price">
+                10$/day
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <div class="price-inner">
+              <h3 class="recommended">Recommended</h3>
+              <h3>Dedicated Walker</h3>
+              <p>2 hours of walk</p>
+              <p>Dedicated to your dog</p>
+              <p>Playing in Park included</p>
+              <div class="total-price day-price">
+                50$/day
+              </div>
+            </div>
+          </div>
+          <div class="price">
+            <div class="price-inner">
+              <h3>Park Tour</h3>
+              <p>1 hour of walk in park</p>
+              <p>3 dogs at once</p>
+              <p>No play</p>
+              <div class="total-price day-price">
+                20$/day
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flex-row who-is" id="who-is">
+          <div>
+            <div class="question">
+              <div class="bullet">1</div>
+              <div class="answer">
+                <h3>Who is a dog walker?</h3>
+                <p>Professional dog walkers, both individuals and businesses, are paid by dog owners to walk their dogs for them.</p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="bullet">2</div>
+              <div class="answer">
+                <h3>Why to hire a dog walker?</h3>
+                <p>Your dog needs to walk around even if you don't have the time!</p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="bullet">3</div>
+              <div class="answer">
+                <h3>Is there a subscription plan?</h3>
+                <p>We plan to offer subscription discount in the future!</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <figure>
+              <img src="img/pexels-anna-shvets-4588047.jpg" alt="Dog sitting on chair">
+              <figcaption>
+                Photo by <strong><a href="https://www.pexels.com/@shvetsa" target="_blank">Anna Shvets</a></strong> from <strong><a href="https://www.pexels.com/" target="_blank">Pexels</a></strong>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+
+        <section class="video" id="bonus">
+          <h3>Bonus content for your beloved dog!</h3>
+          <p>Relaxing music for dogs</p>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kmY6oZfVnqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+        </section>
+
+        <section class="newsletter">
+          <h3>Subscribe to our newsletter</h3>
+          <p>The form below points to FreeCodeCamp's dummy backend.</p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <input type="email" id="email" placeholder="Your e-mail address" name="email" required>
+            <input type="submit" id="submit">
+          </form>
+          <div id="form-notice"></div>
+        </section>
+
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="flex-row">
+          <img src="img/dog-walker-logo.png" alt="Logo of Dog Walker" class="logo">
+          <div class="address">
+            Contact me on 
+            <a href="https://www.linkedin.com/in/benevrenbal" target="_blank">LinkedIn</a>, 
+            <a href="https://www.twitter.com/benevrenbal" target="_blank">Twitter</a>, or <a href="https://www.github.com/evrenbal/" target="_blank">GitHub</a>.
+          </div>
+        </div>
+        <div class="footer-about">
+          <h3>About this page</h3>
+          <p>This page is created for <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank">FreeCodeCamp Responsive Web Development Certification Assignment</a>.</p>
+          <p>
+            Feedbacks are more than welcome! Contact me at <a href="https://www.linkedin.com/in/benevrenbal" target="_blank">LinkedIn</a>, 
+            <a href="https://www.twitter.com/benevrenbal" target="_blank">Twitter</a>, or <a href="https://www.github.com/evrenbal/" target="_blank">GitHub</a>.
+          </p>
+        </div>
+        <div class="footer-note">
+          2021 - Evren Bal
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+  <script src="func.js" defer></script>
+
+</html>
